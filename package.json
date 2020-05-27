@@ -1,0 +1,47 @@
+{
+  "name": "admin-generator",
+  "version": "0.0.1",
+  "description": "The beginning of a great journey: A tool to generate Admin CRUDS in node express for node developers. Let's invent the wheel once, then keep rolling upon it!",
+  "main": "./dist/cli.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "admin-generate": "./dist/cli.js"
+  },
+  "keywords": [
+    "admin",
+    "crud",
+    "generator",
+    "node",
+    "express",
+    "typeorm",
+    "savannabits",
+    "admin-generator",
+    "crud-generator",
+    "command",
+    "line",
+    "vue",
+    "coolsam"
+  ],
+  "author": {
+    "name": "Sam Maosa",
+    "email": "savannabits@gmail.com",
+    "url": "https://github.com/coolsam726"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node": "^14.3.0",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.5",
+    "@types/shelljs": "^0.8.8",
+    "typescript": "^3.9.3"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
