@@ -2,11 +2,14 @@
 console.log("console.log output");
 import shell from 'shelljs';
 shell.exec("echo shell.exec works");
-import fs from "fs"
-async function print(path: any) {
-  const dir = await fs.promises.opendir(path);
-  for await (const dirent of dir) {
-    console.log(dirent.name);
-  }
+import { generateModel } from '../generators/model-generator';
+
+const args = process.argv.slice(2); // Commandline arguments
+const tableName = args[0];
+if (!tableName) {
+    console.error("Sorry, the table name must be defined. Please use the command $ admin-generate table_name");
+    shell.exit(1);
 }
-print('./').catch(console.error);
+
+// Generate Model
+generateModel(tableName);

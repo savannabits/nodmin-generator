@@ -1,0 +1,13 @@
+import {Entity, PrimaryGeneratedColumn, Column} from "typeorm";
+
+@Entity('<%tableName%>')
+export class <%entityName%> {
+
+    @PrimaryGeneratedColumn()
+    id: bigint;
+
+    <%COLUMNS%>
+
+    @Column({default: true})
+    activated: boolean;
+}

@@ -2,14 +2,15 @@
   "name": "admin-generator",
   "version": "0.0.1",
   "description": "The beginning of a great journey: A tool to generate Admin CRUDS in node express for node developers. Let's invent the wheel once, then keep rolling upon it!",
-  "main": "./dist/cli.js",
+  "main": "./dist/bin/cli.js",
   "scripts": {
+    "node14": "./node_modules/node/bin/node",
     "build": "tsc",
     "prepublish": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "admin-generate": "./dist/cli.js"
+    "admin-generate": "./dist/bin/cli.js"
   },
   "keywords": [
     "admin",
@@ -33,7 +34,11 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@types/lodash": "^4.14.153",
+    "@types/pluralize": "^0.0.29",
+    "lodash": "^4.17.15",
     "node": "^14.3.0",
+    "pluralize": "^8.0.0",
     "shelljs": "^0.8.4"
   },
   "devDependencies": {
@@ -42,6 +47,7 @@
     "typescript": "^3.9.3"
   },
   "files": [
-    "dist/**/*"
+    "dist/**/*",
+    "stubs/**/*"
   ]
 }

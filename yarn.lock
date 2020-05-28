@@ -16,6 +16,11 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
+"@types/lodash@^4.14.153":
+  version "4.14.153"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.153.tgz#5cb7dded0649f1df97938ac5ffc4f134e9e9df98"
+  integrity sha512-lYniGRiRfZf2gGAR9cfRC3Pi5+Q1ziJCKqPmjZocigrSJUVPWf7st1BtSJ8JOeK0FLXVndQ1IjUjTco9CXGo/Q==
+
 "@types/minimatch@*":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
@@ -25,6 +30,11 @@
   version "14.0.5"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.5.tgz#3d03acd3b3414cf67faf999aed11682ed121f22b"
   integrity sha512-90hiq6/VqtQgX8Sp0EzeIsv3r+ellbGj4URKj5j30tLlZvRUpnAe9YbYnjl3pJM93GyXU0tghHhvXHq+5rnCKA==
+
+"@types/pluralize@^0.0.29":
+  version "0.0.29"
+  resolved "https://registry.yarnpkg.com/@types/pluralize/-/pluralize-0.0.29.tgz#6ffa33ed1fc8813c469b859681d09707eb40d03c"
+  integrity sha512-BYOID+l2Aco2nBik+iYS4SZX0Lf20KPILP5RGmM1IgzdwNdTs0eebiFriOPcej1sX9mLnSoiNte5zcFxssgpGA==
 
 "@types/shelljs@^0.8.8":
   version "0.8.8"
@@ -87,6 +97,11 @@ interpret@^1.0.0:
   resolved "https://registry.yarnpkg.com/interpret/-/interpret-1.2.0.tgz#d5061a6224be58e8083985f5014d844359576296"
   integrity sha512-mT34yGKMNceBQUoVn7iCDKDntA7SC6gycMAWzGx1z/CMCTV7b2AAtXlo3nRyHZ1FelRkQbQjprHSYGwzLtkVbw==
 
+lodash@^4.17.15:
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+
 minimatch@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
@@ -122,6 +137,11 @@ path-parse@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
   integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+
+pluralize@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-8.0.0.tgz#1a6fa16a38d12a1901e0320fa017051c539ce3b1"
+  integrity sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==
 
 rechoir@^0.6.2:
   version "0.6.2"
