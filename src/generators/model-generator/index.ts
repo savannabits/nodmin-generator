@@ -3,9 +3,10 @@ import fs from "fs";
 import path from "path"
 import {sed} from 'shelljs'
 import pluralize from "pluralize"
+import { generateEntityName } from '../../helpers/name-generator';
 export function generateModel(tableName: string) {
     console.log("Creating model");
-    const entityName = _.upperFirst(_.camelCase(pluralize.singular(tableName)));
+    const entityName = generateEntityName(tableName);
     console.log(`Generating Entity: ${entityName}`);
     
     const dest = "./src/entity/"+entityName+".ts";
